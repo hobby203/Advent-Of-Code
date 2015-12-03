@@ -1013,6 +1013,6 @@ for present in presents:
     w = present[1]
     h = present[2]
     total_area += 2*l*w + 2*w*h + 2*h*l + l*w
-    total_ribbon += 2*l + 2*w
+    total_ribbon += 2*l + 2*w + l*w*h
 print total_area
 print total_ribbon
