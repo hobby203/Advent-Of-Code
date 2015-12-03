@@ -32,8 +32,6 @@ for index, direction in enumerate(directions):
     print index
     if index % 2 == 0:
         find_house(current_house_santa)
-        print 'santa'
     else:
         find_house(current_house_robot)
-        print 'robot'
 print len(houses)
