@@ -8,7 +8,7 @@ while not found:
     hashable_key = hashlib.md5()
     hashable_key.update(key+str(index))
     hashed_key = hashable_key.hexdigest()
-    if hashed_key[0:6] == '000000':
+    if hashed_key[0:6] == 6*'0':
         found = True
 print index
 
