@@ -1,11 +1,11 @@
 import hashlib
 
-key = 'bgvyzdsv'
-index = 0
-found = False
+k = 'bgvyzdsv'
+i = 0
+f = False
 while not found:
-    index += 1
-    hashable_key = hashlib.md5()
+    i += 1
+    h_k = hashlib.md5()
     hashable_key.update(key+str(index))
     hashed_key = hashable_key.hexdigest()
     if hashed_key[0:5] == '00000':
